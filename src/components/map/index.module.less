@@ -1,0 +1,19 @@
+.map {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  :global {
+    .leaflet-control-zoom-in,
+    .leaflet-control-zoom-out {
+      width: 36px !important;
+      height: 36px !important;
+      line-height: 36px;
+      border-radius: 36px !important;
+      margin-bottom: 6px;
+      // background-color: rgba(0, 0, 0, 0.6);
+    }
+
+  }
+}
